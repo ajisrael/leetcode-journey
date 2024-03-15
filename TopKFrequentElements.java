@@ -19,7 +19,9 @@
 // k is in the range [1, the number of unique elements in the array].
 // It is guaranteed that the answer is unique.
 
-class Solution {
+import java.util.*;
+
+class TopKFrequentElements {
     public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
 

@@ -21,7 +21,7 @@
 
 import java.util.HashMap;
 
-class Solution {
+class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;

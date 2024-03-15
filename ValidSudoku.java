@@ -24,7 +24,10 @@
 // ,[".",".",".",".","8",".",".","7","9"]]
 // Output: true
 // Example 2:
-class Solution {
+
+import java.util.*;
+
+class ValidSudoku {
     private char EMPTY_CELL = '.';
 
     // This is used to determine which indicies to use depending on which sub box we are in
